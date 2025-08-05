@@ -8,6 +8,8 @@ FILE_TYPES: Dict[str, str] = {
     'md': 'markdown',
     'html': 'html',
     'css': 'css',
+    'scss': 'scss',
+    'sass': 'sass',
     'js': 'javascript',
     'xml': 'xml',
     'csv': 'csv',
