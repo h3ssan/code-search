@@ -1,5 +1,7 @@
+PYTHON = python
+
 cache: clean
-	python -m csearch.main
+	$(PYTHON) -m csearch.main
 
 clean:
 	rm -rf cache.db
